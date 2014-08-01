@@ -27,59 +27,17 @@ Elements of an Open Response Assessment
 
 When you create an open response assessment assignment, you include several elements:
 
-* The number of responses and assessments.
-* One or more assessment types. Assessment types include **student training**, **peer**, and **self**.
-* (Optional) The due dates for each step.
-* The question.
+* The question, or prompt.
 * The rubric.
+* One or more assessment steps. Assessments can include a student training step, a peer assessment step, and a self assessment step.
 
 For step-by-step instructions, see :ref:`PA Create a PA Assignment`.
 
-=======================================
-Number of Responses and Assessments
-=======================================
-
-In the assignment code, you'll indicate the **number of responses** each student has to assess and the **number of peer assessments** each response has to receive.
-
-.. note:: Because some students may submit a response but not complete peer assessments, some responses may not receive the required number of assessments. To increase the chance that all responses will receive enough assessments, you must set the number of responses that students have to assess to be higher than the number of assessments that each response must undergo. For example, if you require each response to receive three assessments, you could require each student to assess five responses.
-
-If all responses have received assessments, but some students haven't completed the required number of peer assessments, those students can assess responses that other students have already assessed. The student who submitted the response sees the additional peer assessments when he sees his score. However, the additional peer assessments do not count toward the score that the response receives.
-
-For more information, see :ref:`PA Specify Name and Assessment Types`.
-
-=====================
-Assessment Type
-=====================
-
-In your assignment, you'll also specify the **assessment type or types**. You can see the type and order of the assessments when you look at the assignment. In the following example, after students submit a response, they complete peer assessments on other students' responses ("Assess Peers") and then complete self assessments ("Assess Your Response").
-
-.. image:: /Images/PA_AsmtWithResponse.png
-  :alt: Image of peer assessment with assessment steps and status labeled
-  :width: 600
-
-You can set the assignment to include a peer assessment only, a self assessment only, or both a peer assessment and a self assessment. You can also include a student training assessment that students will complete before they perform peer and self assessments. Student training assessments contain sample responses and scores that you create. They help students learn to grade their peers' responses.
-
-For more information, see :ref:`PA Specify Name and Assessment Types` and :ref:`PA Student Training Assessments`.
-
-===================================
-Start and Due Dates (optional)
-===================================
-
-You can specify **start dates** and **due dates** for students to submit responses, perform peer assessments, and perform self assessments.
-
-You can set different dates for each step, and these dates can overlap. For example, you can allow students to submit responses and complete peer and self assessments starting on March 1. You can require all responses to be submitted by March 7, but allow students to continue peer and self assessments until March 14, a week after all responses are due.
-
-If you don't specify dates, the deadline for all elements--responses, peer assessments, and self assessments--is the due date that you set for the subsection that contains the peer assessment. If you do specify dates, those dates take precedence over the subsection due date.
-
-.. note:: We don't recommend that you use the same due date and time for response submissions and assessments. If a student submits a response immediately before the due date, other students will have very little time to assess the response before peer assessment closes. In this case, a student's response may not receive a score.
-
-For more information, see :ref:`PA Add Due Dates`.
-
-==============
+************************
 Question
-==============
+************************
 
-You'll also specify the **question** that you want your students to answer. This appears near the top of the component, followed by a field where the student enters a response. You can require your students to enter text as a response, or you can require your students to both enter text and upload an image. (All student responses must include text. You cannot require students to only upload an image.)
+The **question** that you want your students to answer appears near the top of the component, followed by a field where the student enters a response. You can require your students to enter text as a response, or you can require your students to both enter text and upload an image. (All student responses must include text. You cannot require students to only upload an image.)
 
 When you write your question, you can include helpful information for your students, such as what students can expect after they submit responses and the approximate number of words or sentences that a student's response should have. (A response cannot have more than 10,000 words.) 
 
@@ -87,9 +45,9 @@ For more information, see :ref:`PA Add Question`.
 
 .. _PA Rubric:
 
-=======
+************************
 Rubric
-=======
+************************
 
 Your assignment must include a **rubric** that you design. The same rubric is used for peer and self assessments, and the rubric appears when students begin grading. Students compare their peers' responses to the rubric.
 
@@ -97,7 +55,9 @@ Rubrics are made of *criteria* and *options*.
 
 * Each criterion has a *name*, a *prompt*, and two or more *options*. 
 
-   * The name is a very short summary of the criterion, such as Ideas or Content. Criterion names generally have just one word. Because the system uses criteria names for identification, **the name for each criterion must be unique.** Criterion names do not appear in the rubric that students see when they are completing peer assessments, but they do appear on the page that shows the student's final grade.
+   * The name is a very short summary of the criterion, such as "Ideas" or "Content". Criterion names generally have just one word. Because the system uses criterion names for identification, **the name for each criterion must be unique.** Criterion names do not appear in the rubric that students see when they are completing peer assessments, but they do appear on the page that shows the student's final grade.
+
+   .. you'll use criterion names when you create student training responses
 
      .. image :: /Images/PA_CriterionName.png
         :alt: A final score page with call-outs for the criterion names
@@ -115,6 +75,8 @@ You can see both criterion and option names when you access assignment informati
 .. image:: /Images/PA_Crit_Option_Names.png
    :width: 600
    :alt: Student-specific assignment information with call-outs for criterion and option names
+
+Note that different criteria in the same assignment can have different numbers of options. For example, in the image above, the first criterion has three options and the second criterion has four options.
 
 When you create your rubric, decide how many points each option will receive, and make sure that the explanation for each option is as specific as possible. For example, one criterion and set of options may resemble the following.
 
@@ -149,15 +111,27 @@ Prompt: Does this response explain the origins of the Hundred Years' War? (5 poi
 
 For more information about writing effective rubrics, see Heidi Goodrich Andrade's `Understanding Rubrics <http://learnweb.harvard.edu/alps/thinking/docs/rubricar.htm>`_.
 
-Note that different criteria in the same assignment can have different numbers of options. For example, in the image above, the first criterion has three options and the second criterion has four options.
-
 For more information, see :ref:`PA Add Rubric`.
+
+************************
+Assessment Steps
+************************
+
+In your assignment, you'll also specify the **assessment steps**. You can set the assignment to include a student training step, a peer assessment step, and a self assessment step. 
+
+You can see the type and order of the assessments when you look at the assignment. In the following example, after students submit a response, they complete a student training step ("Learn to Assess Responses"), complete peer assessments on other students' responses ("Assess Peers"), and then complete self assessments ("Assess Your Response").
+
+.. image:: /Images/PA_AsmtWithResponse.png
+  :alt: Image of peer assessment with assessment steps and status labeled
+  :width: 600
+
+.. note:: If you include a student training step, you must also include a peer assessment step. The student training step must come before the peer assessment step.
 
 .. _PA Student Training Assessments:
 
-========================================
-Student Training Assessments (optional)
-========================================
+==================
+Student Training  
+==================
 
 When you create a peer assessment assignment, you can create one or more student training assessments to help students learn to perform their own assessments. A student training assessment contains one or more sample responses that you write, together with the scores that you would give the sample responses. Students review these responses and try to score them the way that you scored them.
 
@@ -200,9 +174,28 @@ The student continues to try scoring the sample response until the student's sco
 
 For more information, see :ref:`PA Add a Student Training Assessment`.
 
+.. note:: If you include a student training step, you must also include a peer assessment step. The student training step must come before the peer assessment step.
+
+=====================
+Peer Assessment
+=====================
+
+
+
+
+Number of Responses and Assessments
+************************************
+
+When you specify a peer assessment step, you'll indicate the **number of responses** each student has to assess and the **number of peer assessments** each response has to receive.
+
+.. note:: Because some students may submit a response but not complete peer assessments, some responses may not receive the required number of assessments. To increase the chance that all responses will receive enough assessments, you must set the number of responses that students have to assess to be higher than the number of assessments that each response must undergo. For example, if you require each response to receive three assessments, you could require each student to assess five responses.
+
+If all responses have received assessments, but some students haven't completed the required number of peer assessments, those students can assess responses that other students have already assessed. The student who submitted the response sees the additional peer assessments when he sees his score. However, the additional peer assessments do not count toward the score that the response receives.
+
+For more information, see :ref:`PA Specify Name and Assessment Types`.
+
 .. _PA Scoring:
 
-***********************
 Peer Assessment Scoring
 ***********************
 
@@ -244,11 +237,18 @@ To calculate the final score, add the median scores for each criterion:
 
 Note, again, that final scores are calculated by criteria, not by individual assessor. Thus the response's score is not the median of the scores that each individual peer assessor gave the response.
 
+
+=====================
+Self Assessment
+=====================
+
+In self assessments, 
+
 .. _PA Create a PA Assignment:
 
-************************************
-Create a Peer Assessment Assignment
-************************************
+*************************************************
+Create an Open Response Assessment Assignment
+*************************************************
 
 To create a peer assessment assignment, you'll edit XML code in a Problem component, similar to the way you create other assignments. The following image shows what a peer assessment component looks like when you edit it in Studio, as well as the way that students see that peer assessment in the courseware.
 
@@ -402,6 +402,16 @@ For more information, see :ref:`PA Student Training Assessments`.
 ==========================================
 Step 4. Add Start and Due Dates (optional)
 ==========================================
+
+You can specify **start dates** and **due dates** for students to submit responses, perform peer assessments, and perform self assessments.
+
+You can set different dates for each step, and these dates can overlap. For example, you can allow students to submit responses and complete peer and self assessments starting on March 1. You can require all responses to be submitted by March 7, but allow students to continue peer and self assessments until March 14, a week after all responses are due.
+
+If you don't specify dates, the deadline for all elements--responses, peer assessments, and self assessments--is the due date that you set for the subsection that contains the peer assessment. If you do specify dates, those dates take precedence over the subsection due date.
+
+.. note:: We don't recommend that you use the same due date and time for response submissions and assessments. If a student submits a response immediately before the due date, other students will have very little time to assess the response before peer assessment closes. In this case, a student's response may not receive a score.
+
+For more information, see :ref:`PA Add Due Dates`.
 
 Setting start and due dates is optional. If you don't specify dates, the deadline for all student responses and assessments is the due date that you set for the subsection that contains the peer assessment. If you do specify dates, those dates take precedence over the subsection due date.
 
