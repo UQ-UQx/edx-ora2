@@ -134,7 +134,7 @@ To allow or require images with a response:
 
 .. note:: Students can only submit one image with their response. Additionally, course teams cannot currently see any of the images that students submit. Images are not visible in the body of the assignment in the courseware, and they are not included in the course data package.
 
-.. Steve/Will: Just allowed, or required?
+.. Steve/Will/Grady: Does this setting only allow students to submit images? In other words, if this is set to True, does it mean the student is required to submit an image, or does it just mean that she can?
 
 
 .. _PA Add a Student Training Assessment:
