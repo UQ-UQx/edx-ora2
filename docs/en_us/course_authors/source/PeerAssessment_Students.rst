@@ -77,7 +77,7 @@ Note that you can view your response at any time after you submit it. To do this
 Submit an Image with Your Response
 ***********************************
 
-Some assignments require you to submit an image with your text response. If you have to submit an image, you'll see buttons that you'll use to upload your image.
+Some assignments allow you to submit an image with your text response. If you can submit an image, you'll see buttons that you'll use to upload your image.
 
 .. image:: /Images/PA_Upload_ChooseFile.png 
    :alt: Open response assessment example with Choose File and Upload Your Image buttons circled
@@ -154,13 +154,26 @@ You'll assess these responses by selecting options in the rubric, the same way y
 
 .. note:: Some assessments may have an additional **Comments** field for one or more of the assessment's individual criteria. You can enter up to 300 characters in these fields. In the following image, the first of the criteria has a separate **Comments** field, but the second does not.
 
-    .. image:: /Images/PA_S_CommentBoxes.png
-       :alt: Rubric with call-outs for comment boxes
-       :width: 500
+    .. image:: /Images/PA_CriterionAndOverallComments.png
+       :alt: Rubric with comment fields under each criterion and under overall response
+       :width: 600
 
 After you've selected options in the rubric and provided additional comments about the response in this field, click **Submit your assessment and move to response #<number>**.
 
 When you submit your assessment of the first student's response, another response opens for you. Assess this response in the same way that you assessed the first response, and then submit your assessment. You'll repeat these steps until you've assessed the required number of responses. The number in the upper-right corner of the step is updated as you assess each response.
+
+You can assess more peer responses if you want to. After a student assess the required number of responses, the step "collapses" so that just the **Assess Peers** heading is visible. 
+
+.. image:: /Images/PA_PAHeadingCollapsed.png
+   :width: 500
+   :alt: The peer assessment step with just the heading visible
+
+To assess more responses, click the **Assess Peers** heading to expand the step. Then, click **Continue Assessing Peers**.
+
+.. image:: /Images/PA_ContinueGrading.png
+   :width: 500
+   :alt: The peer assessment step expanded so that "Continue Assessing Peers" is visible
+
 
 =====================
 Assess Your Response

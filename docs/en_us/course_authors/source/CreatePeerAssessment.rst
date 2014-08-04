@@ -61,7 +61,7 @@ Step 3. Add the Rubric
 
 In this step, you'll add your rubric and provide your students with feedback options.
 
-.. note:: All open response assessments include a **Feedback** field below the rubric so that students can provide feedback for a peer's overall response. You can also allow or require students to provide feedback for individual criteria. See step 2.4 below for instructions. For more information, see :ref:`Feedback Options`.
+.. note:: All open response assessments include a feedback field below the rubric so that students can provide feedback for a peer's overall response. You can also allow or require students to provide feedback for individual criteria. See step 2.4 below for instructions. For more information, see :ref:`Feedback Options`.
 
 To add the rubric:
 

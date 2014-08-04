@@ -21,15 +21,15 @@ For more information, see the following sections:
 
 .. _PA Elements:
 
-*****************************************
+==========================================
 Elements of an Open Response Assessment
-*****************************************
+==========================================
 
 When you create an open response assessment assignment, you include several elements:
 
 * The question, or prompt.
 * The rubric.
-* One or more assessment steps. Assessments can include a student training step, a peer assessment step, and a self assessment step.
+* One or more assessment steps. Assignments can include a student training step, a peer assessment step, and a self assessment step.
 
 .. note:: If you include a student training step, you must also add a peer assessment step. The student training step must be the first step.
 
@@ -39,7 +39,9 @@ For step-by-step instructions, see :ref:`PA Create a PA Assignment`.
 Question
 ************************
 
-The **question** that you want your students to answer appears near the top of the component, followed by a field where the student enters a response. You can require your students to enter text as a response, or you can require your students to both enter text and upload an image. (All student responses must include text. You cannot require students to only upload an image.)
+The **question** that you want your students to answer appears near the top of the page, followed by a field where the student enters a response. You can require your students to enter text as a response, or you can require your students to both enter text and upload an image. (All student responses must include text. You cannot require students to only upload an image.)
+
+
 
 When you write your question, you can include helpful information for your students, such as what students can expect after they submit responses and the approximate number of words or sentences that a student's response should have. (A response cannot have more than 10,000 words.) 
 
@@ -196,12 +198,9 @@ By default, students see only a single comment field below the entire rubric. Ho
 
 The comment field appears below the options for the criterion. In the following image, the first criterion has a comment field, but the second does not.
 
-.. image:: /Images/PA_Comments_Criterion.png
-   :alt: Comment box under an individual criterion
-   :width: 500
-
-.. Re-do screen shot - add comment field under each criterion, highlighted in magenta. Then add comment field under entire response, highlighted in blue. Replace this image and PA_S_CommentBoxes with the new image.
-
+.. image:: /Images/PA_CriterionAndOverallComments.png
+   :alt: Rubric with comment fields under each criterion and under overall response
+   :width: 600
 
 Number of Responses and Assessments
 ************************************
@@ -212,8 +211,17 @@ When you specify a peer assessment step, you'll specify the **number of response
 
 If all responses have received assessments, but some students haven't completed the required number of peer assessments, those students can assess responses that other students have already assessed. The student who submitted the response sees the additional peer assessments when he sees his score. However, the additional peer assessments do not count toward the score that the response receives.
 
-Students can continue assessing responses after they have assessed the required number. A new response opens automatically when a student completes an assessment. "<text" appears when students have assessed the required number of responses. 
+Students can assess more than the required number of responses. After a student completes the peer assessment step, the step "collapses" so that just the **Assess Peers** heading is visible. 
 
+.. image:: /Images/PA_PAHeadingCollapsed.png
+   :width: 500
+   :alt: The peer assessment step with just the heading visible
+
+If the student clicks the **Assess Peers** heading, the step expands. The student can then click **Continue Assessing Peers**.
+
+.. image:: /Images/PA_ContinueGrading.png
+   :width: 500
+   :alt: The peer assessment step expanded so that "Continue Assessing Peers" is visible
 
 
 For more information, see :ref:`PA Specify Name and Assessment Types`.
