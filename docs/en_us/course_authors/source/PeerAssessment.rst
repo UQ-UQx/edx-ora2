@@ -39,13 +39,30 @@ For step-by-step instructions, see :ref:`PA Create a PA Assignment`.
 Question
 ************************
 
-The **question** that you want your students to answer appears near the top of the page, followed by a field where the student enters a response. You can require your students to enter text as a response, or you can require your students to both enter text and upload an image. (All student responses must include text. You cannot require students to only upload an image.)
+The **question** that you want your students to answer appears near the top of the page, followed by a field where the student enters a response. You can require your students to enter text as a response, or you can allow your students to both enter text and upload an image. 
 
+.. image:: /Images/PA_QandRField.png
+   :width: 500
+   :alt: ORA question and blank response field
 
 
 When you write your question, you can include helpful information for your students, such as what students can expect after they submit responses and the approximate number of words or sentences that a student's response should have. (A response cannot have more than 10,000 words.) 
 
-For more information, see :ref:`PA Add Question`.
+For more information, see :ref:`PA Add Prompt`.
+
+==========================================
+Asking Students to Upload Images
+==========================================
+
+You can ask your students to upload an image as part of their response. If you do this, however, keep the following in mind:
+
+* Currently, you cannot require your students to upload an image. You can only allow it.
+
+* All responses must include some text. Students cannot submit a response that only contains an image.
+
+* Students can only submit one image with their response. 
+
+.. note:: Currently, course teams cannot see any of the images that students submit. Images are not visible in the body of the assignment in the courseware, and they are not included in the course data package.
 
 .. _PA Rubric:
 
@@ -61,22 +78,19 @@ Rubrics are made of *criteria* and *options*.
 
    * The name is a very short summary of the criterion, such as "Ideas" or "Content". Criterion names generally have just one word. Because the system uses criterion names for identification, **the name for each criterion must be unique.** Criterion names do not appear in the rubric that students see when they are completing peer assessments, but they do appear on the page that shows the student's final grade.
 
-   .. you'll use criterion names when you create student training responses_
-
      .. image :: /Images/PA_CriterionName.png
         :alt: A final score page with call-outs for the criterion names
 
-    * The prompt is a description of the criterion. 
+   * The prompt is a description of the criterion. 
 
 * Each option has a *name*, an *explanation*, and a *point value*.
 
   .. image:: /Images/PA_Rubric_LMS.png
      :alt: Image of a rubric in the LMS with call-outs for the criterion prompt and option names, explanations, and points
 
-  .. note:: You can also include criteria that do not have options, but that do include a field where students can enter feedback. For more information, see :ref:`TBD`.
+  .. note:: You can also include criteria that do not have options, but that do include a field where students can enter feedback. For more information, see :ref:`PA Criteria Comment Field Only`.
 
 You can see both criterion and option names when you access assignment information for an individual student. For more information, see :ref:`PA Accessing Assignment Information`.
-
 
 .. image:: /Images/PA_Crit_Option_Names.png
    :width: 600
@@ -131,17 +145,17 @@ You can see the type and order of the assessments when you look at the assignmen
   :alt: Image of peer assessment with assessment steps and status labeled
   :width: 600
 
-.. note:: If you include a student training step, you must also include a peer assessment step. The student training step must come before the peer assessment step.
+.. note:: If you include a student training step, you must also include a peer assessment step. The student training step must come before peer and self assessment steps.
 
 .. _PA Student Training Assessments:
 
-==================
-Student Training  
-==================
+========================
+Student Training Step
+========================
 
 When you create a peer assessment assignment, you can include one or more student training assessments to help students learn to perform their own assessments. A student training assessment contains one or more sample responses that you write, together with the scores that you would give the sample responses. Students review these responses and try to score them the way that you scored them.
 
-.. note:: If you include a student training step, you must also include a peer assessment step. The student training step must come before the peer assessment step.
+.. note:: If you include a student training step, you must also include a peer assessment step. The student training step must come before peer and self assessment steps.
 
 In a student training assessment, the **Learn to Assess Responses** step opens immediately after a student submits a response. The student sees one of the sample responses that you created, along with the rubric. The scores that you gave the response do not appear. The student also sees the number of sample responses that he or she will assess.
 
@@ -180,27 +194,14 @@ For example, the following student chose one correct option and one incorrect op
 
 The student continues to try scoring the sample response until the student's scoring for all criteria matches the instructor's scoring.
 
-For more information, see :ref:`PA Add a Student Training Assessment`.
+For more information, see :ref:`PA Student Training Step`.
 
 
 =====================
-Peer Assessment
+Peer Assessment Step
 =====================
 
 In the peer assessment step, students review other students' responses and select an option for each criterion in your rubric based on the response. Students can also provide text feedback, or comments, on the response. 
-
-.. _Feedback Options:
-
-Feedback Options
-****************
-
-By default, students see only a single comment field below the entire rubric. However, you can add a comment field to an individual criterion or to several individual criteria. The comment field can contain up to 300 characters.
-
-The comment field appears below the options for the criterion. In the following image, the first criterion has a comment field, but the second does not.
-
-.. image:: /Images/PA_CriterionAndOverallComments.png
-   :alt: Rubric with comment fields under each criterion and under overall response
-   :width: 600
 
 Number of Responses and Assessments
 ************************************
@@ -211,20 +212,21 @@ When you specify a peer assessment step, you'll specify the **number of response
 
 If all responses have received assessments, but some students haven't completed the required number of peer assessments, those students can assess responses that other students have already assessed. The student who submitted the response sees the additional peer assessments when he sees his score. However, the additional peer assessments do not count toward the score that the response receives.
 
-Students can assess more than the required number of responses. After a student completes the peer assessment step, the step "collapses" so that just the **Assess Peers** heading is visible. 
+For more information, see :ref:`PA Select Assignment Steps`.
 
-.. image:: /Images/PA_PAHeadingCollapsed.png
-   :width: 500
-   :alt: The peer assessment step with just the heading visible
+.. _Feedback Options:
 
-If the student clicks the **Assess Peers** heading, the step expands. The student can then click **Continue Assessing Peers**.
+Feedback Options
+****************
 
-.. image:: /Images/PA_ContinueGrading.png
-   :width: 500
-   :alt: The peer assessment step expanded so that "Continue Assessing Peers" is visible
+By default, students see only a single comment field below the entire rubric. However, you can add a comment field to an individual criterion or to several individual criteria. The comment field can contain up to 300 characters.
 
+The comment field appears below the options for the criterion. In the following image, both criteria have a comment field. There is also a field for overall comments on the response.
 
-For more information, see :ref:`PA Specify Name and Assessment Types`.
+.. image:: /Images/PA_CriterionAndOverallComments.png
+   :alt: Rubric with comment fields under each criterion and under overall response
+   :width: 600
+
 
 .. _PA Scoring:
 
@@ -269,9 +271,23 @@ To calculate the final score, add the median scores for each criterion:
 
 Note, again, that final scores are calculated by criteria, not by individual assessor. Thus the response's score is not the median of the scores that each individual peer assessor gave the response.
 
+Assessing Additional Responses
+********************************
+
+Students can assess more than the required number of responses. After a student completes the peer assessment step, the step "collapses" so that just the **Assess Peers** heading is visible. 
+.. image:: /Images/PA_PAHeadingCollapsed.png
+   :width: 500
+   :alt: The peer assessment step with just the heading visible
+
+If the student clicks the **Assess Peers** heading, the step expands. The student can then click **Continue Assessing Peers**.
+
+.. image:: /Images/PA_ContinueGrading.png
+   :width: 500
+   :alt: The peer assessment step expanded so that "Continue Assessing Peers" is visible
+
 
 =====================
-Self Assessment
+Self Assessment Step
 =====================
 
 In self assessments, the student sees his response followed by your rubric. As with peer assessments, the student compares the rubric to his response and selects an option for each of the criteria. If you include both peer and self assessments, we recommend that you include the peer assessment before the self assessment. 

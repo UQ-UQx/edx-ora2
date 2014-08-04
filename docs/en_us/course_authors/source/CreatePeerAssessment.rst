@@ -5,17 +5,19 @@ Create an Open Response Assessment Assignment
 #############################################
 
 
-Creating a peer assessment is a multi-step process:
+Creating an open response assessment is a multi-step process:
 
 * :ref:`PA Create Component`
-* :ref:`PA Add Question`
+* :ref:`PA Add Prompt`
 * :ref:`PA Add Rubric`
-* :ref:`PA Specify Name and Assessment Types`
-* :ref:`PA Specify Settings for Each Assessment`
-* :ref:`PA Add a Student Training Assessment`
+* :ref:`PA Specify Name and Dates`
+* :ref:`PA Select Assignment Steps`
+* :ref:`PA Specify Step Settings`
 * :ref:`PA Test Assignment`
 
 Each of these steps is covered in detail below.
+
+For more information about the components of an open response assessment, see :ref:`Peer Assessments`.
 
 
 .. _PA Create Component:
@@ -31,27 +33,44 @@ To create the component for your open response assessment:
 #. In the Problem component that appears, click **Edit**.
 
 
-.. _PA Add Question:
+.. _PA Add Prompt:
 
 ******************************
-Step 2. Add the Question
+Step 2. Add the Prompt
 ******************************
 
-To add the question, or prompt:
+To add the prompt, or question:
 
 #. In the open response assessment component editor, click the **Prompt** tab. 
 #. Add the text of your question in the text field. Replace any default text, if necessary.
 
 ========================================
-Add Formatting or Images to the Question
+Add Formatting or Images to the Prompt
 ========================================
 
-Currently, you cannot add text formatting or images to an open response assessment. If you want to include formatting or images in the text of your prompt, you can add an HTML component that contains your text above the Peer Assessment component and leave the text field in the **Prompt** tab blank. The instructions for the peer assessment still appear above the **Your Response** field.
+Currently, you cannot add text formatting or images inside the peer assessment component. If you want to include formatting or images in the text of your prompt, you can add an HTML component that contains your text above the Peer Assessment component and leave the text field in the **Prompt** tab blank. The instructions for the peer assessment still appear above the **Your Response** field.
 
 .. image:: /Images/PA_HTMLComponent.png
       :alt: A peer assessment that has an image in an HTML component
       :width: 500
 
+.. _PA Allow Images:
+
+============================================
+Allow Students to Submit Images (optional)
+============================================
+
+To allow students to submit an image with a response:
+
+#. In the component editor, click the **Settings** tab.
+#. Next to **Allow Image Responses**, select **True**.
+
+.. note:: 
+ 
+   * Currently, course teams cannot currently see any of the images that students submit. Images are not visible in the body of the assignment in the courseware, and they are not included in the course data package.
+   * You can allow students to upload an image, but you cannot require it.
+   * Students can only submit one image with a response.
+   * All responses must contain text. Students cannot submit a response that contains only an image.
 
 .. _PA Add Rubric:
 
@@ -59,32 +78,29 @@ Currently, you cannot add text formatting or images to an open response assessme
 Step 3. Add the Rubric
 ******************************
 
-In this step, you'll add your rubric and provide your students with feedback options.
+In this step, you'll add your rubric and provide your students with feedback options. For all of these steps, replace any default text with your own text.
 
 .. note:: All open response assessments include a feedback field below the rubric so that students can provide feedback for a peer's overall response. You can also allow or require students to provide feedback for individual criteria. See step 2.4 below for instructions. For more information, see :ref:`Feedback Options`.
 
 To add the rubric:
 
 #. In the open response assessment component editor, click the **Rubric** tab.
-#. Enter your first criterion together with its options, and specify whether you want to require feedback for this individual criterion. 
-
-   For all of the following steps, replace any default text with your own text.
-   
-   1. In the first **Criterion** section, enter the name and prompt text of your first criterion.
-   #. In the first **Option** section, enter the name, explanation, and point value for the first option.
-   #. In the next **Option** section, enter the name, explanation, and point value for the next option.
-   #. Repeat step 3 for each option. If you need to add more options, click **Add Option**.
-   #. Next to **Feedback for This Criterion**, select a value in the drop-down list.
+#. In the first **Criterion** section, enter the name and prompt text of your first criterion.
+#. In the first **Option** section, enter the name, explanation, and point value for the first option.
+#. In the next **Option** section, enter the name, explanation, and point value for the next option.
+#. Repeat steps 3-5 for each option. If you need to add more options, click **Add Option**.
+#. Next to **Feedback for This Criterion**, select a value in the drop-down list.
 
       * If you don't want students to provide feedback, select **None**.
       * If you want to require students to provide feedback, select **Required**.
       * If you want to allow students to provide feedback, but not require it, select **Optional**.
 
-3. Follow the instructions in step 2 to add your remaining criteria. If you need to add more criteria, click **Add Criterion** at the end of the list of criteria.
-#. Include instructions for students to provide overall written feedback on their peers' responses. If you want to, you can replace the default text in the **Feedback Instructions** field with your own text.
+7. Follow the instructions in steps 2-6 to add your remaining criteria. If you need to add more criteria, click **Add Criterion** at the end of the list of criteria.
+#. Include instructions for students to provide overall written feedback on their peers' responses. You can leave the default text in the **Feedback Instructions** field or replace it with your own text.
 
-.. _PA Zero Option Criteria:
+.. _PA Criteria Comment Field Only:
 
+==========================================================
 Provide Only Comment Fields for Individual Criteria
 ==========================================================
 
@@ -99,53 +115,30 @@ To provide a comment field without options:
 #. In the criterion, click **Remove** to remove, or delete, all the options.
 #. Next to **Feedback for This Criterion**, select **Required** in the drop-down list.
 
-
-
-.. _PA Specify Name and Steps:
-
+.. _PA Specify Name and Dates:
 
 ************************************************************
-Step 4. Specify the Assignment Name and Response Settings
+Step 4. Specify the Assignment Name and Response Dates
 ************************************************************
 
-You'll specify a name for the assignment, the start and due dates for all student responses, and whether students an upload an image as part of their response on the **Settings** tab. 
-
+To specify a name for the assignment as well as start and due dates for all student responses:
 
 #. In the component editor, click the **Settings** tab.
-#. Specify the assignment name.
-   #. Next to **Display Name**, type the name you want to give the assignment.
-3. Specify start and due dates for the response.
-   #. Next to **Response Start Date** and **Response Start Time**, enter the date and time when you want students to be able to begin submitting responses. Note that all times are in Universal Coordinated Time (UTC).
-   #. Next to **Response Due Date** and **Response Due Time**, enter the date and time by which all student responses must be submitted. Note that all times are in Universal Coordinated Time (UTC).
+#. Next to **Display Name**, type the name you want to give the assignment.
+#. Next to **Response Start Date** and **Response Start Time**, enter the date and time when you want students to be able to begin submitting responses. Note that all times are in Universal Coordinated Time (UTC).
+#. Next to **Response Due Date** and **Response Due Time**, enter the date and time by which all student responses must be submitted. Note that all times are in Universal Coordinated Time (UTC).
 
-   .. note:: We recommend that you set the response due date and time at least two days before the peer assessment due date and time. If the response due time and peer assessment due time are close together, and a student submits a response just before responses are due, other students may not have time to perform peer assessments before peer assessments are due.
+.. note:: We recommend that you set the response due date and time at least two days before the peer assessment due date and time. If the response due time and peer assessment due time are close together, and a student submits a response just before responses are due, other students may not have time to perform peer assessments before peer assessments are due.
 
-
-************************************************************
-Step 5. Require Students to Submit Images (optional)
-************************************************************
-
-You can allow or require students to include an image with their response. Note that all responses must contain text; students cannot submit a response that contains only an image.
-
-To allow or require images with a response:
-
-#. In the component editor, click the **Settings** tab.
-#. Next to **Allow Image Responses**, select **True**.
-
-.. note:: Students can only submit one image with their response. Additionally, course teams cannot currently see any of the images that students submit. Images are not visible in the body of the assignment in the courseware, and they are not included in the course data package.
-
-.. Steve/Will/Grady: Does this setting only allow students to submit images? In other words, if this is set to True, does it mean the student is required to submit an image, or does it just mean that she can?
-
-
-.. _PA Add a Student Training Assessment:
+.. _PA Select Assignment Steps:
 
 ****************************************
-Step 6. Select Assignment Steps
+Step 5. Select Assignment Steps
 ****************************************
 
 Open response assessment assignments can include student training, peer assessment, and self assessment steps. You can include a peer assessment step before a self assessment step and vice versa. 
 
-If you include a student training step, you **must** include a peer assessment step. You can also include a self assessment step. The student training step must come before both the peer assessment and self assessment step.
+If you include a student training step, you **must** include a peer assessment step. You can also include a self assessment step. The student training step must come before both the peer assessment and the self assessment step.
 
 To add steps to the assignment:
 
@@ -161,16 +154,21 @@ To add steps to the assignment:
 
 #. (optional) If you want to change the order of the steps, drag the steps into the order that you want. If you include a student training step, make sure it is the first step in the assignment.
 
+.. _PA Specify Step Settings:
+
 ******************************
-Step 7. Specify Step Settings
+Step 6. Specify Step Settings
 ******************************
 
-When you select the steps that you want, you'll also specify settings for those steps.
+After you select the steps that you want, you'll specify settings for those steps.
 
 .. note:: If you make changes to a step, but then you clear the check box for that step, the step will no longer be part of the assignment and your changes will not be saved. 
 
+.. _PA Student Training Step:
+
+========================
 Student Training
-============================
+========================
 
 For the student training step, you'll enter one or more responses that you have created, then select an option for each criterion in your rubric.
 
@@ -184,7 +182,7 @@ To add and score student training responses:
 
 For more information, see :ref:`PA Student Training Assessments`.
 
-
+============================
 Peer Assessment
 ============================
 
@@ -192,17 +190,17 @@ For the peer assessment step, you'll specify the number of responses that each s
 
 To specify peer assessment settings:
 
-#. Lcoate the **Step: Peer Assessment** heading.
+#. Locate the **Step: Peer Assessment** heading.
 #. Next to **Must Grade**, enter the number of responses that each student must grade.
 #. Next to **Graded By**, enter the number of students that must grade each response.
 #. Next to **Start Date** and **Start Time**, enter the date and time when students can begin assessing their peers' responses. All times are in Universal Coordinated Time (UTC).
 #. Next to **Due Date** and **Due Time**, enter the date and time by which all peer assessments must be complete. All times are in UTC.
 
-
+============================
 Self Assessment
 ============================
 
-For the self assessment step, you'll just specify when the step starts and ends.
+For the self assessment step, you'll specify when the step starts and ends.
 
 #. Locate the **Step: Self Assessment** heading.
 #. Next to **Start Date** and **Start Time**, enter the date and time when students can begin assessing their peers' responses. All times are in Universal Coordinated Time (UTC).
@@ -210,9 +208,8 @@ For the self assessment step, you'll just specify when the step starts and ends.
 
 .. _PA Test Assignment:
 
-
 ******************************
-Step 8. Test the Assignment
+Step 7. Test the Assignment
 ******************************
 
-To test your assignment, set up the assignment in a test course, and ask a group of beta users to submit responses and grade each other. The beta testers can then let you know if they found the question and the rubric easy to understand or if they had any problems with the assignment.
+To test your assignment, set up the assignment in your course, set the section or subsection date in the future, and ask a group of beta users to submit responses and grade each other. The beta testers can then let you know if they found the question and the rubric easy to understand or if they had any problems with the assignment.
