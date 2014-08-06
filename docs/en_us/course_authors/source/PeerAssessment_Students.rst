@@ -32,7 +32,7 @@ When you come to an open response assessment in the course, you'll see the quest
    :alt: Open response assessment example with question, response field, and assessment types and status labeled
    :width: 550
 
-Here, we'll walk you through the process of completing an open response assessment that includes a peer assessment and a self assessment:
+Here, we'll walk you through the process of completing an open response assessment that includes a student training step, a peer assessment, and a self assessment:
 
 #. Submit your response to a question.
 #. Learn to assess responses.
@@ -89,7 +89,7 @@ To upload your image:
 #. In the dialog box that opens, select the file that you want, and then click **Open**.
 #. When the dialog box closes, click **Upload Your Image**.
 
-Your image appears below the response field, and the name of the image file appears next to the **Choose File** button. If you want to change the image, follow steps 1-3 again.
+Your image appears below the response field, and the name of the image file appears next to the **Choose File** button. If you want to change the image, follow steps 1-3 again. You can only upload one image.
 
 .. image:: /Images/PA_Upload_WithImage.png
    :alt: Example response with an image of Paris
@@ -152,7 +152,7 @@ When peer assessment starts, you'll see the original question, another student's
 
 You'll assess these responses by selecting options in the rubric, the same way you assessed the sample responses in the "learn to assess responses" step. Additionally, this step has a field below the rubric where you can provide comments about the student's response. 
 
-.. note:: Some assessments may have an additional **Comments** field for one or more of the assessment's individual criteria. You can enter up to 300 characters in these fields. In the following image, the first of the criteria has a separate **Comments** field, but the second does not.
+.. note:: Some assessments may have an additional **Comments** field for one or more of the assessment's individual criteria. You can enter up to 300 characters in these fields. In the following image, both criteria have a **Comments** field. There is also a field for overall comments on the response.
 
     .. image:: /Images/PA_CriterionAndOverallComments.png
        :alt: Rubric with comment fields under each criterion and under overall response
@@ -162,7 +162,10 @@ After you've selected options in the rubric and provided additional comments abo
 
 When you submit your assessment of the first student's response, another response opens for you. Assess this response in the same way that you assessed the first response, and then submit your assessment. You'll repeat these steps until you've assessed the required number of responses. The number in the upper-right corner of the step is updated as you assess each response.
 
-You can assess more peer responses if you want to. After a student assess the required number of responses, the step "collapses" so that just the **Assess Peers** heading is visible. 
+Assess Additional Peer Responses
+********************************
+
+You can assess more peer responses if you want to. After you assess the required number of responses, the step "collapses" so that just the **Assess Peers** heading is visible. 
 
 .. image:: /Images/PA_PAHeadingCollapsed.png
    :width: 500
@@ -214,9 +217,9 @@ If you've assessed the required number of peer responses and completed your self
 Peer Assessment Scoring
 ***********************
 
-Peer assessments are scored by criteria. An individual criterion's score is the median of the scores that each peer assessor gave that criterion. For example, if the Ideas criterion in a peer assessment receives a 10 from one student, a 7 from a second student, and an 8 from a third student, the Ideas criterion's score is 8.
+Peer assessments are scored by criteria. An individual criterion's score is the *median*, not average, of the scores that each peer assessor gave that criterion. For example, if the Ideas criterion in a peer assessment receives a 10 from one student, a 7 from a second student, and an 8 from a third student, the Ideas criterion's score is 8.
 
-A student's final score for a peer assessment is the sum of the median scores for each individual criterion. 
+Your final score for a peer assessment is the sum of the median scores for each individual criterion. 
 
 For example, a response may receive the following scores from peer assessors:
 
@@ -250,4 +253,4 @@ To calculate the final score, the system adds the median scores for each criteri
 
   **Ideas median (8/10) + Content median (8/10) + Grammar median (4/5) = final score (20/25)**
 
-Note, again, that final scores are calculated by criteria, not by individual assessor. Thus the response's score is not the median of the scores that each individual peer assessor gave the response.
+Note, again, that final scores are calculated by criteria, not by assessor. Thus your score is not the median of the scores that each individual peer assessor gave the response.

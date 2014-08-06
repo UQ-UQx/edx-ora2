@@ -27,7 +27,7 @@ Elements of an Open Response Assessment
 
 When you create an open response assessment assignment, you include several elements:
 
-* The question, or prompt.
+* The prompt, or question.
 * The rubric.
 * One or more assessment steps. Assignments can include a student training step, a peer assessment step, and a self assessment step.
 
@@ -36,10 +36,10 @@ When you create an open response assessment assignment, you include several elem
 For step-by-step instructions, see :ref:`PA Create a PA Assignment`.
 
 ************************
-Question
+Prompt
 ************************
 
-The **question** that you want your students to answer appears near the top of the page, followed by a field where the student enters a response. You can require your students to enter text as a response, or you can allow your students to both enter text and upload an image. 
+The **prompt**, or question that you want your students to answer, appears near the top of the page, followed by a field where the student enters a response. You can require your students to enter text as a response, or you can allow your students to both enter text and upload an image. 
 
 .. image:: /Images/PA_QandRField.png
    :width: 500
@@ -83,20 +83,22 @@ Rubrics are made of *criteria* and *options*.
 
    * The prompt is a description of the criterion. 
 
+   * Options describe how well the response satisfies the criterion.
+
 * Each option has a *name*, an *explanation*, and a *point value*.
 
   .. image:: /Images/PA_Rubric_LMS.png
      :alt: Image of a rubric in the LMS with call-outs for the criterion prompt and option names, explanations, and points
 
-  .. note:: You can also include criteria that do not have options, but that do include a field where students can enter feedback. For more information, see :ref:`PA Criteria Comment Field Only`.
+Different criteria in the same assignment can have different numbers of options. For example, in the image above, the first criterion has three options and the second criterion has four options.
+
+.. note:: You can also include criteria that do not have options, but that do include a field where students can enter feedback. For more information, see :ref:`PA Criteria Comment Field Only`.
 
 You can see both criterion and option names when you access assignment information for an individual student. For more information, see :ref:`PA Accessing Assignment Information`.
 
 .. image:: /Images/PA_Crit_Option_Names.png
    :width: 600
    :alt: Student-specific assignment information with call-outs for criterion and option names
-
-Note that different criteria in the same assignment can have different numbers of options. For example, in the image above, the first criterion has three options and the second criterion has four options.
 
 When you create your rubric, decide how many points each option will receive, and make sure that the explanation for each option is as specific as possible. For example, one criterion and set of options may resemble the following.
 
@@ -212,8 +214,6 @@ When you specify a peer assessment step, you'll specify the **number of response
 
 If all responses have received assessments, but some students haven't completed the required number of peer assessments, those students can assess responses that other students have already assessed. The student who submitted the response sees the additional peer assessments when he sees his score. However, the additional peer assessments do not count toward the score that the response receives.
 
-For more information, see :ref:`PA Select Assignment Steps`.
-
 .. _Feedback Options:
 
 Feedback Options
@@ -227,6 +227,7 @@ The comment field appears below the options for the criterion. In the following 
    :alt: Rubric with comment fields under each criterion and under overall response
    :width: 600
 
+For more information, see :ref:`Add Rubric` and :ref:`PA Criteria Comment Field Only`.
 
 .. _PA Scoring:
 
@@ -275,6 +276,7 @@ Assessing Additional Responses
 ********************************
 
 Students can assess more than the required number of responses. After a student completes the peer assessment step, the step "collapses" so that just the **Assess Peers** heading is visible. 
+
 .. image:: /Images/PA_PAHeadingCollapsed.png
    :width: 500
    :alt: The peer assessment step with just the heading visible
@@ -290,6 +292,8 @@ If the student clicks the **Assess Peers** heading, the step expands. The studen
 Self Assessment Step
 =====================
 
-In self assessments, the student sees his response followed by your rubric. As with peer assessments, the student compares the rubric to his response and selects an option for each of the criteria. If you include both peer and self assessments, we recommend that you include the peer assessment before the self assessment. 
+In self assessments, the student sees his response followed by your rubric. As with peer assessments, the student compares the rubric to his response and selects an option for each of the criteria. 
+
+If you include both peer and self assessments, we recommend that you include the peer assessment before the self assessment. 
 
 

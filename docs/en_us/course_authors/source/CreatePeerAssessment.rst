@@ -88,10 +88,10 @@ To add the rubric:
 #. In the first **Criterion** section, enter the name and prompt text of your first criterion.
 #. In the first **Option** section, enter the name, explanation, and point value for the first option.
 #. In the next **Option** section, enter the name, explanation, and point value for the next option.
-#. Repeat steps 3-5 for each option. If you need to add more options, click **Add Option**.
+#. Repeat step 4 for each option. If you need to add more options, click **Add Option**.
 #. Next to **Feedback for This Criterion**, select a value in the drop-down list.
 
-      * If you don't want students to provide feedback, select **None**.
+      * If you don't want students to provide feedback for this individual criterion, select **None**.
       * If you want to require students to provide feedback, select **Required**.
       * If you want to allow students to provide feedback, but not require it, select **Optional**.
 
