@@ -48,7 +48,7 @@ To add the prompt, or question:
 Add Formatting or Images to the Prompt
 ========================================
 
-Currently, you cannot add text formatting or images inside the peer assessment component. If you want to include formatting or images in the text of your prompt, you can add an HTML component that contains your text above the Peer Assessment component and leave the text field in the **Prompt** tab blank. The instructions for the peer assessment still appear above the **Your Response** field.
+Currently, you cannot add text formatting or images inside the Peer Assessment component. If you want to include formatting or images in the text of your prompt, you can add an HTML component that contains your text above the Peer Assessment component and leave the text field in the **Prompt** tab blank. The instructions for the peer assessment still appear above the **Your Response** field.
 
 .. image:: /Images/PA_HTMLComponent.png
       :alt: A peer assessment that has an image in an HTML component
@@ -67,7 +67,7 @@ To allow students to submit an image with a response:
 
 .. note:: 
  
-   * Currently, course teams cannot currently see any of the images that students submit. Images are not visible in the body of the assignment in the courseware, and they are not included in the course data package.
+   * Currently, course teams cannot see any of the images that students submit. Images are not visible in the body of the assignment in the courseware, and they are not included in the course data package.
    * You can allow students to upload an image, but you cannot require it.
    * Students can only submit one image with a response.
    * All responses must contain text. Students cannot submit a response that contains only an image.
@@ -78,7 +78,9 @@ To allow students to submit an image with a response:
 Step 3. Add the Rubric
 ******************************
 
-In this step, you'll add your rubric and provide your students with feedback options. For all of these steps, replace any default text with your own text.
+In this step, you'll add your rubric and provide your students with feedback options. 
+
+For each step below, replace any default text with your own text.
 
 .. note:: All open response assessments include a feedback field below the rubric so that students can provide feedback for a peer's overall response. You can also allow or require students to provide feedback for individual criteria. See step 2.4 below for instructions. For more information, see :ref:`Feedback Options`.
 
